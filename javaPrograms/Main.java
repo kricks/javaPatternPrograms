@@ -1,3 +1,7 @@
+import easyPrograms.GcdOfTwoNumbers;
+import easyPrograms.LcmOfTwoNumbers;
+import patternPrograms.*;
+
 public class Main
 {
     public static void main(String[] args) {
@@ -14,5 +18,10 @@ public class Main
         SquareStarPattern.printStarPattern(5);
         System.out.println("***************************");
         DiamondStarPattern.printDiamond(5);
+        System.out.println("***************************");
+        System.out.println("GCD is " + GcdOfTwoNumbers.gcd(1071, 462));
+        System.out.println("LCM is " + LcmOfTwoNumbers.lcm(6, 10));
+
+
     }
 }

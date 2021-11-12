@@ -1,21 +1,23 @@
-
-//      *
-//     * *
-//   * * *
+package patternPrograms;
+//         *
+//       * *
+//     * * *
 //   * * * *
-//  * * * * *
+// * * * * *
 
-public class EqualateralTriangleStarPattern {
+public class LeftTriangleStarPattern {
     public static void printStarPattern(int rows) {
-        int i, j, k;
+        int i, j, k=2*rows-2;
         for (i=0; i<rows; i++) {
-            for(j=i; j<rows; j++) {
+            for(j=0; j<k; j++) {
                 System.out.print(" ");
             }
-            for(k=0; k<=i; k++) {
+            k = k-2;
+            for (j=0; j<=i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
     }
 }
+

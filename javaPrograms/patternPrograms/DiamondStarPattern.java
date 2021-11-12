@@ -1,3 +1,5 @@
+package patternPrograms;
+
 public class DiamondStarPattern {
     public static void printDiamond(int num) {
         // top pyramid
