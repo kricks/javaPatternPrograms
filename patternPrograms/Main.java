@@ -13,5 +13,6 @@ public class Main
         System.out.println("***************************");
         SquareStarPattern.printStarPattern(5);
         System.out.println("***************************");
+        DiamondStarPattern.printDiamond(5);
     }
 }
