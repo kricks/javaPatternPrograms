@@ -4,12 +4,8 @@
 //  *  *  *  *  *
 //  *  *  *  *  *
 
-public class Main
+public class SquareStarPattern
 {
-    public static void main(String[] args) {
-        printStarPattern(5);
-    }
-
     public static void printStarPattern(int rows) {
         int i, j;
         for (i=0; i<rows; i++) {

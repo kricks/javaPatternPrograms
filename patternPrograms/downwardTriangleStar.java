@@ -5,12 +5,7 @@
 // * *
 // *
 
-public class Main
-{
-    public static void main(String[] args) {
-        printStarPattern(5);
-    }
-
+public class downwardTriangleStar {
     public static void printStarPattern(int rows) {
         int i, j;
         for (i=0; i<rows; i++) {
