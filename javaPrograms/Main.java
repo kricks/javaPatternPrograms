@@ -1,4 +1,5 @@
 import easyPrograms.GcdOfTwoNumbers;
+import easyPrograms.IsArmstrong;
 import easyPrograms.LcmOfTwoNumbers;
 import patternPrograms.*;
 
@@ -21,7 +22,7 @@ public class Main
         System.out.println("***************************");
         System.out.println("GCD is " + GcdOfTwoNumbers.gcd(1071, 462));
         System.out.println("LCM is " + LcmOfTwoNumbers.lcm(6, 10));
-
+        System.out.println("Is armstrong " + IsArmstrong.isArmstrong(371));
 
     }
 }
