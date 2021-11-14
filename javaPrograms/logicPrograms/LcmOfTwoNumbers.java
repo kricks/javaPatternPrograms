@@ -1,4 +1,4 @@
-package easyPrograms;
+package logicPrograms;
 
 public class LcmOfTwoNumbers {
     // lcm(a,b) = (a*b) / GCF(a,b)

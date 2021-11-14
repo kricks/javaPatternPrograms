@@ -1,4 +1,4 @@
-package easyPrograms;
+package logicPrograms;
 // is armstrong number is when the sum of the nth power of each digit is equal to the number itself
 // 371 = 3^3 + 7^3 + 1^3
 public class IsArmstrong {

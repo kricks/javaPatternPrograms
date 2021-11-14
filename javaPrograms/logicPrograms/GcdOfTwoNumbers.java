@@ -1,4 +1,4 @@
-package easyPrograms;
+package logicPrograms;
 
 public class GcdOfTwoNumbers {
     // find GCD of two numbers using the euclidean greatest common divisor
